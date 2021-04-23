@@ -1,0 +1,46 @@
+.home-buttons-container {
+    border: 1px;
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-bottom:auto;
+}
+
+.artwork{
+    background-color: grey;
+}
+
+#OpacityPic2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 300px;
+    max-width: 400px;
+    margin-top: 8px;
+    margin-left: 40%;
+    transition-property: opacity, left, top, height;
+    transition-duration: 3s, 5s;
+    animation-timing-function: ease;
+     
+  }
+
+
+  #OpacityPic2:hover {
+    transition-property: opacity, left, top, height;
+    transition-duration: 3s, 5s;
+  }
+  hr{
+      margin-top: 5%;
+  }
+
+  h1{
+      color:  rgb(179, 21, 158);
+      font-style: oblique 67deg;
+      font-weight: 900;
+      margin-left: 25px;
+      margin-bottom: 300px;
+    
+  }
